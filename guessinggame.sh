@@ -1,6 +1,6 @@
 #!/bin/bash
 
-numFiles=$(ls -1 | wc -l)
+numFiles=$(ls -A | wc -l)
 echo "How many files are there in this directory ?"
 echo "Enter your guess: "
 read guessVal
